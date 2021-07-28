@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color : #1670e5d7;
+    background-color : #3d526dd7;
 }
 
 .mainContainer{
@@ -23,6 +23,11 @@ body{
 
 .labelledClass input{
     width: 100%;
+    padding : 3px;
+}
+
+.labelledClass label{
+    margin-bottom: 5px;
 }
 
 .labelledClass{
@@ -35,4 +40,21 @@ body{
     color: white;
     background-color: green;
     padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.bottomLine{
+    color : white;
+    display: inline;
+}
+
+.bottom{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bottom a{
+    text-decoration : none;
+    color : rgb(133, 247, 228);
 }
