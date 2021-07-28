@@ -14,7 +14,7 @@ body{
     padding : 10px;
     display: table;
     margin: auto;
-    width: 300px;
+    width: 370px;
 }
 
 .labelledClass label,input{
@@ -57,4 +57,10 @@ body{
 .bottom a{
     text-decoration : none;
     color : rgb(133, 247, 228);
+}
+
+span{
+    color: blue;
+    text-align: center;
+    display: block;
 }
