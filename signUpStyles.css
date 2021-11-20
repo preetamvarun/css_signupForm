@@ -21,6 +21,11 @@ body{
     display: block;
 }
 
+.labelledClass p{
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
 .labelledClass input{
     border : none;
     border : solid 1px #ccc;
