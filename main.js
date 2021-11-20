@@ -42,10 +42,38 @@ function checkEmail(){
     }
 }
 
+function checkConfirmPassword(password){
+    console.log('enter into function');
+    let msg = confirmPasswordField.parentElement.lastElementChild;
+    console.log(`original password ${password}`);
+    console.log(`confirmed password ${confirmPasswordField.value}`);
+    if(password === confirmPasswordField.value){
+        msg.textContent = '';
+        confirmPasswordField.style.border = '2px solid green';
+    } else{
+        msg.textContent = 'passwords do not match';
+        confirmPasswordField.style.border = '2px solid red';
+    }
+}
+
+
+function checkPassword(){
+    let password = passwordField.value;
+    let msg = passwordField.parentElement.lastElementChild;
+    if(password.length >= 6){
+        passwordField.style.border = '2px solid green';
+        msg.textContent = '';
+    } else{
+        msg.textContent = 'Password should be atleast 6 characters';
+        passwordField.style.border = '2px solid red';
+    }
+    checkConfirmPassword(password);
+}
+
 function checkRequirements(e){
     checkNames();
     checkEmail();
-    
+    checkPassword();
     e.preventDefault();
 }
 
