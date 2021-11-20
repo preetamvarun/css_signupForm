@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color : #3d526dd7;
-}
+body {background-color : #3d526dd7;}
 
 .mainContainer{
     background-color: white;
@@ -17,9 +15,7 @@ body{
     width: 370px;
 }
 
-.labelledClass label,input{
-    display: block;
-}
+.labelledClass label,input {display: block;}
 
 .labelledClass p{
     margin: 5px 0px;
@@ -34,13 +30,9 @@ body{
     padding : 5px;
 }
 
-.labelledClass label{
-    margin-bottom: 5px;
-}
+.labelledClass label{margin-bottom: 5px;}
 
-.labelledClass{
-    margin-bottom : 10px;
-}
+.labelledClass{margin-bottom : 10px;}
 
 .btn{
     border : none;
@@ -52,9 +44,7 @@ body{
     margin-top: 5px;
 }
 
-.btn:hover{
-    cursor: pointer;
-}
+.btn:hover {cursor: pointer;}
 
 .bottomLine{
     color : white;
