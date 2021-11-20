@@ -1,4 +1,4 @@
-**Counter-App** : :jack_o_lantern:
+**signupform** : :jack_o_lantern:
 A web app that is built with **HTML5,CSS3 & Vanilla JAVASCRIPT**  
 
 > Note : The project is still build with pure javascript. No libraries used.
